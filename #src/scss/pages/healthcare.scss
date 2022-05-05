@@ -1,0 +1,949 @@
+  .dashboard{
+    position: relative;
+    background: $darkbluecolor;
+    overflow: hidden;
+    &.static{
+      width: 1440px;
+      height: 372px;
+      background: $lightbluecolor;
+      &.g-animation{
+        .dashboard{
+          &__title{
+            &.second-screen-hc{
+              top: 380px;
+            }
+            &.third-screen-hc{
+              opacity: 0;
+            }
+          }
+          &__person{
+            left: -450px;
+          }
+          &__logo{
+            right: -305px;
+          }
+          &__logo-wave{
+            right: -580px;
+          }
+        }
+      }
+      .dashboard{
+        &__title{
+          opacity: 1;
+          left: 334px;
+          top: 314px;
+          &.second-screen-hc{
+            .h-2{
+              font-size: 26px;
+              line-height: 32px;
+            }
+          }
+          &.third-screen-hc{
+            left: 357px;
+            top: 65px;
+            .h-2{
+              font-size: 64px;
+              line-height: 64px;
+              text-indent: 34px;
+              &:first-child{
+                text-indent: 0;
+              }
+            }
+            .btn{
+              font-size: 24px;
+              line-height: 30px;
+              margin: 21px 0 0 302px;
+              padding: 12px 45px;
+              background: $ctabluecolor;
+            }
+          }
+        }
+        &__person{
+          bottom: -223px;
+          left: -7px;
+          height: 621px;
+          width: 449px;
+        }
+        &__logo-wave{
+          width: 708px;
+          height: 706px;
+        }
+        &__logo{
+          right: 45px;
+          bottom: 44px;
+        }
+        &__gradient{
+          opacity: 0.4;
+        }
+      }
+    }
+    &.linkedin{
+      width: 1200px;
+      height: 1200px;
+      &.man{
+        .dashboard{
+          &__title{
+            &.third-screen-hc{
+              max-width: 1000px;
+            }
+          }
+        }
+      }
+      &.ret{
+        .dashboard{
+          &__title{
+            &.third-screen-hc{
+              max-width: 770px;
+            }
+          }
+        }
+      }
+    }
+    &.facebook{
+      width: 1080px;
+      height: 1080px;
+      &.man{
+        .dashboard{
+          &__title{
+            &.third-screen-hc{
+              max-width: 890px;
+            }
+          }
+        }
+      }
+      &.ret{
+        .dashboard{
+          &__title{
+            &.third-screen-hc{
+              max-width: 675px;
+            }
+          }
+        }
+      }
+      .dashboard{
+        &__title{
+          .h-2{
+            font-size: 60px;
+            line-height: 70px;
+            text-indent: 30px;
+          }
+          &.third-screen-hc{
+            top: 69px;
+            .h-2{
+              font-size: 85px;
+              line-height: 100px;
+              &:first-child{
+                text-indent: 0;
+              }
+            }
+            .btn{
+              margin: 67px 0 0 0;
+              font-size: 40px;
+            }
+          }
+        }
+      }
+    }
+    &.v-horizontal{
+      width: 970px;
+      height: 250px;
+      &.man{
+        .dashboard{
+          &__title{
+            bottom: 41px;
+            left: 169px;
+            &.third-screen-hc{
+              max-width: 700px;
+            }
+          }
+        }
+      }
+      .dashboard{
+        &__title{
+          bottom: 33px;
+          left: 149px;
+          .h-2{
+            font-size: 30px;
+            line-height: 36px;
+            text-indent: 15px;
+          }
+          &.third-screen-hc{
+            top: 33px;
+            left: 60px;
+            max-width: 660px;
+            .h-2{
+              font-size: 40px;
+              line-height: 50px;
+              text-indent: 0;
+            }
+            .btn{
+              position: absolute;
+              top: 50px;
+              left: 281px;
+              font-size: 18px;
+              padding: 10px 17px;
+              line-height: 20px;
+            }
+          }
+        }
+        &__person{
+          width: 206px;
+          height: 230px;
+        }
+        &__logo{
+          right: 20px;
+          bottom: 29px;
+          width: 178px;
+          height: 59px;
+        }
+        &__logo-wave{
+          width: 417px;
+          height: 419px;
+        }
+      }
+    }
+    &.v-horizontal-sm{
+      width: 728px;
+      height: 90px;
+      &.man{
+        .dashboard{
+          &__title{
+            bottom: 23px;
+            &.third-screen-hc{
+              max-width: 500px;
+            }
+          }
+        }
+      }
+      &.ret{
+        .dashboard{
+          &__title{
+            &.third-screen-hc{
+              max-width: 470px;
+            }
+          }
+        }
+      }
+      .dashboard{
+        &__title{
+          left: 99px;
+          bottom: 19px;
+          .h-2{
+            font-size: 17px;
+            line-height: 19px;
+            text-indent: 9px;
+          }
+          &.third-screen-hc{
+            top: 15px;
+            left: 21px;
+            max-width: 484px;
+            .h-2{
+              font-size: 20px;
+              line-height: 24px;
+              text-indent: 0;
+            }
+            .btn{
+              position: absolute;
+              top: 31px;
+              margin: 0;
+              left: 271px;
+              font-size: 12px;
+              padding: 10px 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        &__person{
+          height: 142px;
+          width: 142px;
+          bottom: -38px;
+        }
+        &__logo-wave{
+          width: 546px;
+          height: 91px;
+          img{
+            object-fit: inherit;
+          }
+        }
+        &__logo{
+          right: 15px;
+          bottom: 14px;
+          width: 125px;
+          height: 42px;
+        }
+      }
+    }
+    &.v-vertical-sm{
+      width: 300px;
+      height: 250px;
+      &.man{
+        .dashboard{
+          &__title{
+            bottom: 100px;
+            &.third-screen-hc{
+              max-width: 260px;
+              .btn{
+                top: 155px;
+                padding: 5px 7px;
+              }
+            }
+          }
+        }
+      }
+      .dashboard{
+        &__logo-wave{
+          width: 255px;
+          height: 235px;
+          img{
+            object-fit: initial;
+          }
+        }
+        &__person{
+          bottom: -34px;
+          left: -42px;
+          height: 180px;
+          width: 163px;
+        }
+        &__logo{
+          right: 9px;
+          bottom: 12px;
+          width: 116px;
+          height: 41px;
+        }
+        &__title{
+          max-width: 205px;
+          bottom: 93px;
+          left: 65px;
+          .h-2{
+            font-size: 17px;
+            line-height: 19px;
+            text-indent: 9px;
+          }
+          &.third-screen-hc{
+            top: 15px;
+            left: 21px;
+            max-width: 270px;
+            .h-2{
+              font-size: 24px;
+              line-height: 28px;
+              text-indent: 0;
+            }
+            .btn{
+              position: absolute;
+              top: 122px;
+              margin: 0;
+              left: 0px;
+              font-size: 12px;
+              padding: 8px 15px;
+              line-height: 14px;
+            }
+          }
+        }
+        &__gradient{
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.43) 100%);
+        }
+      }
+    }
+    &.v-vertical{
+      width: 300px;
+      height: 600px;
+      &.man{
+        .dashboard{
+          &__title{
+            max-width: 241px;
+            left: 48px;
+            bottom: 252px;
+          }
+        }
+      }
+      &.ret{
+        .dashboard{
+          &__title{
+            max-width: 241px;
+            left: 105px;
+            bottom: 201px;
+            &.third-screen-hc{
+              left: 57px;
+              max-width: 200px;
+              .btn{
+                left: 30px;
+              }
+            }
+          }
+        }
+      }
+      .dashboard{
+        &__title{
+          max-width: 185px;
+          left: 126px;
+          bottom: 194px;
+          .h-2{
+            font-size: 22px;
+            line-height: 25px;
+            text-indent: 12px;
+          }
+          &.third-screen-hc{
+            top: 44px;
+            left: 25px;
+            max-width: 246px;
+            .h-2{
+              text-align: center;
+              font-size: 32px;
+              line-height: 41px;
+              text-indent: 0;
+            }
+            .btn{
+              position: absolute;
+              top: 280px;
+              margin: 0;
+              left: 59px;
+              font-size: 18px;
+              padding: 10px 17px;
+              line-height: 20px;
+            }
+          }
+        }
+        &__logo-wave{
+          bottom: -34px;
+          right: -22px;
+          width: 429px;
+          height: 497px;
+          img{
+            object-fit: initial;
+          }
+        }
+        &__logo{
+          right: 14px;
+          bottom: 22px;
+          width: 174px;
+          height: 59px;
+        }
+        &__person{
+          left: -38px;
+          height: 286px;
+          width: 215px;
+          bottom: -28px;
+        }
+        &__gradient{
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.63) 100%);
+        }
+      }
+    }
+    &.active{
+      .dashboard{
+        &__title{
+          &.first-screen-hc{
+            animation-name: show-text;
+            animation-duration: 2500ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+          &.second-screen-hc{
+            animation-name: show-text;
+            animation-duration: 3000ms;
+            animation-delay: 2500ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+          &.third-screen-hc{
+            animation-name: show-text-final;
+            animation-duration: 700ms;
+            animation-delay: 5500ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            pointer-events: none;
+          }
+        }
+        &__person{
+          animation-name: remove-person;
+          animation-duration: 500ms;
+          animation-delay: 5000ms;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+        }
+        &__bg{
+          animation-name: show-bg;
+          animation-duration: 500ms;
+          animation-delay: 5500ms;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+        }
+        &__logo{
+          animation-name: scale-logo;
+          animation-duration: 700ms;
+          animation-delay: 5500ms;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+        }
+        &__logo-wave{
+          animation-name: scale-wave;
+          animation-duration: 700ms;
+          animation-delay: 5500ms;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+        }
+      }
+      &.v-horizontal{
+        .dashboard{
+          &__logo{
+            animation-name: scale-logo-mod;
+          }
+          &__logo-wave{
+            animation-name: scale-wave-mod;
+          }
+        }
+      }
+      &.v-horizontal-sm{
+        .dashboard{
+          &__title{
+            &.first-screen-hc{
+              animation-name: show-text-mod-2;
+            }
+            &.second-screen-hc{
+              animation-name: show-text-mod-2;
+              animation-duration: 3000ms;
+              animation-delay: 2500ms;
+              animation-timing-function: linear;
+              animation-fill-mode: forwards;
+            }
+            &.third-screen-hc{
+              animation-name: show-text-final-mod;
+            }
+          }
+          &__logo{
+            animation-name: scale-logo-mod-5;
+            animation-duration: 700ms;
+            animation-delay: 5500ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+          &__logo-wave{
+            animation-name: scale-wave-mod-5;
+            animation-duration: 700ms;
+            animation-delay: 5500ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+        }
+      }
+      &.v-vertical-sm{
+        .dashboard{
+          &__title{
+            &.first-screen-hc{
+              animation-name: show-text-mod-2;
+            }
+            &.second-screen-hc{
+              animation-name: show-text-mod-2;
+              animation-duration: 3000ms;
+              animation-delay: 2500ms;
+              animation-timing-function: linear;
+              animation-fill-mode: forwards;
+            }
+            &.third-screen-hc{
+              animation-name: show-text-final-mod;
+            }
+          }
+          &__logo{
+            animation-name: scale-logo-mod-2;
+          }
+          &__logo-wave{
+            animation-name: scale-wave-mod-2;
+          }
+        }
+      }
+      &.v-vertical{
+        .dashboard{
+          &__title{
+            &.first-screen-hc{
+              animation-name: show-text-mod-2;
+            }
+            &.second-screen-hc{
+              animation-name: show-text-mod-2;
+              animation-duration: 3000ms;
+              animation-delay: 2500ms;
+              animation-timing-function: linear;
+              animation-fill-mode: forwards;
+            }
+            &.third-screen-hc{
+              animation-name: show-text-final-mod;
+            }
+          }
+          &__logo{
+            animation-name: scale-logo-mod-3;
+          }
+          &__logo-wave{
+            animation-name: scale-wave-mod-3;
+          }
+        }
+      }
+      &.g-animation{
+        .dashboard{
+          &__title{
+            &.second-screen-hc{
+              animation-name: show-text-mod-3;
+              animation-duration: 500ms;
+              animation-delay: inherit;
+              animation-timing-function: linear;
+              animation-fill-mode: forwards;
+            }
+            &.third-screen-hc{
+              animation-name: show-text-final-mod-2;
+              animation-duration: 2500ms;
+              animation-delay: 500ms;
+              animation-timing-function: linear;
+              animation-fill-mode: forwards;
+              pointer-events: none;
+            }
+          }
+          &__person{
+            animation-name: add-person;
+            animation-duration: 500ms;
+            animation-delay: inherit;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+          &__logo{
+            animation-name: scale-logo-mod-4;
+            animation-duration: 400ms;
+            animation-delay: 1000ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+          &__logo-wave{
+            animation-name: scale-wave-mod-4;
+            animation-duration: 700ms;
+            animation-delay: 700ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+        }
+      }
+    }
+    &__title{
+      position: absolute;
+      opacity: 0;
+      left: 300px;
+      bottom: 300px;
+      max-width: 820px;
+      z-index: 2;
+      .h-2{
+        text-indent: 35px;
+      }
+      &.first-screen-hc{
+        .h-2{
+          &:first-child{
+            text-indent: 0;
+          }
+        }
+      }
+      &.second-screen-hc{
+        .h-2{
+          &:first-child{
+            text-indent: 0;
+          }
+        }
+      }
+      &.third-screen-hc{
+        top: 112px;
+        left: 79px;
+        bottom: initial;
+        max-width: 1030px;
+        .btn{
+          margin: 83px 0 0 0;
+        }
+        .h-2{
+          text-indent: 0;
+          font-size: 96px;
+          line-height: 105px;
+        }
+      }
+    }
+    &__content{
+      width: 100%;
+      height: 100%;
+    }
+    &__person{
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: -17px;
+      height: 532px;
+      width: 449px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    &__logo-wave{
+      position: absolute;
+      pointer-events: none;
+      z-index: 2;
+      bottom: 0;
+      right: 0;
+      width: 735px;
+      height: 734px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    &__bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &__logo{
+      position: absolute;
+      z-index: 3;
+      right: 40px;
+      bottom: 53px;
+      width: 309px;
+      height: 105px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &__gradient{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  @keyframes show-text{
+    0%{
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    20%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100%{
+      opacity: 0;
+      transform: translateY(0);
+      pointer-events: none;
+    }
+  }
+  @keyframes show-text-mod-2{
+    0%{
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    20%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100%{
+      opacity: 0;
+      transform: translateY(0);
+      pointer-events: none;
+    }
+  }
+  @keyframes show-text-mod-3 {
+    0%{
+      top: 380px;
+    }
+    100%{
+      top: 314px;
+    }
+  }
+
+  @keyframes show-text-final{
+    0%{
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100%{
+      pointer-events: visible;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes show-text-final-mod{
+    0%{
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100%{
+      pointer-events: initial;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes show-text-final-mod-2{
+    0%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 100%;
+    }
+    100%{
+      pointer-events: initial;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes remove-person{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  @keyframes add-person {
+    0%{
+      left: -450px;
+    }
+    100%{
+      left: -7px;
+    }
+  }
+
+  @keyframes show-bg{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+  @keyframes scale-logo{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.7) translateX(-100px) translateY(-20px);
+    }
+  }
+  @keyframes scale-logo-mod{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.3) translateX(-20px) translateY(-13px);
+    }
+  }
+  @keyframes scale-logo-mod-2{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.2) translateX(-10px) translateY(-5px);
+    }
+  }
+  @keyframes scale-logo-mod-3{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.2) translateX(-15px) translateY(-17px);
+    }
+  }
+  @keyframes scale-logo-mod-4 {
+    0%{
+      right: -305px;
+    }
+    100%{
+      right: 45px;
+    }
+  }
+  @keyframes scale-logo-mod-5 {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-15px) ;
+    }
+  }
+
+  @keyframes scale-wave{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(2) translateX(-150px) translateY(-130px);
+    }
+  }
+  @keyframes scale-wave-mod{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.3) translateX(-40px) translateY(-35px);
+    }
+  }
+  @keyframes scale-wave-mod-2{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.3) translateX(-20px) translateY(-15px);
+    }
+  }
+  @keyframes scale-wave-mod-3{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.2) translateX(-40px) translateY(-50px);
+    }
+  }
+  @keyframes scale-wave-mod-4 {
+    0%{
+      right: -580px;
+    }
+    100%{
+      right: 0;
+    }
+  }
+  @keyframes scale-wave-mod-5 {
+    0%{
+      width: 546px;
+    }
+    100%{
+      width: 581px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
