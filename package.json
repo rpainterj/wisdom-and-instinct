@@ -9,7 +9,7 @@
   },
   "author": "anton-k",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -31,7 +31,7 @@
     "sass": "^1.43.4",
     "webp-converter": "^2.2.3"
   },
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0"
   }
