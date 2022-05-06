@@ -5,8 +5,10 @@
   "main": "index.html",
   "scripts": {
     "build": "gulp build",
-    "start": "gulp"
+    "start": "gulp",
+    "postinstall" : "gulp"
   },
+  "postinstall" : "gulp",
   "author": "anton-k",
   "license": "ISC",
   "dependencies": {
