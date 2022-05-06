@@ -492,7 +492,7 @@ h6 {
 }
 
 .dashboard.v-horizontal-sm .dashboard__logo {
-  width: 156px;
+  width: 145px;
   bottom: 8px;
 }
 
@@ -630,8 +630,8 @@ h6 {
 }
 
 .dashboard.v-vertical .dashboard__title.third-screen-hc {
-  top: 44px;
-  left: 25px;
+  top: 60px;
+  left: 29px;
   max-width: 242px;
 }
 
@@ -646,7 +646,7 @@ h6 {
   position: absolute;
   top: 280px;
   margin: 0;
-  left: 59px;
+  left: 50px;
   font-size: 18px;
   padding: 11px 17px 12px 17px;
   line-height: 20px;
@@ -746,8 +746,8 @@ h6 {
           animation-name: scale-logo;
   -webkit-animation-duration: 700ms;
           animation-duration: 700ms;
-  -webkit-animation-delay: 5500ms;
-          animation-delay: 5500ms;
+  -webkit-animation-delay: 5700ms;
+          animation-delay: 5700ms;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
@@ -1097,9 +1097,9 @@ h6 {
 }
 
 .dashboard__gradient {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.15)));
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.15));
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.15));
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0)));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1517,8 +1517,8 @@ h6 {
   }
 
   100% {
-    -webkit-transform: scale(1.1) translateX(0px);
-            transform: scale(1.1) translateX(0px);
+    -webkit-transform: scale(1.15) translateX(0px);
+            transform: scale(1.15) translateX(0px);
   }
 }
 
@@ -1529,8 +1529,8 @@ h6 {
   }
 
   100% {
-    -webkit-transform: scale(1.1) translateX(0px);
-            transform: scale(1.1) translateX(0px);
+    -webkit-transform: scale(1.15) translateX(0px);
+            transform: scale(1.15) translateX(0px);
   }
 }
 
@@ -1726,8 +1726,8 @@ h6 {
   }
 
   100% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     right: -20px;
   }
 }
@@ -1740,8 +1740,8 @@ h6 {
   }
 
   100% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     right: -20px;
   }
 }

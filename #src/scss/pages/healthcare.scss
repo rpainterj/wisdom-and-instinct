@@ -291,7 +291,7 @@
           }
         }
         &__logo{
-          width: 156px;
+          width: 145px;
           bottom: 8px;
         }
         &__gradient {
@@ -413,8 +413,8 @@
             text-indent: 12px;
           }
           &.third-screen-hc{
-            top: 44px;
-            left: 25px;
+            top: 60px;
+            left: 29px;
             max-width: 242px;
             .h-2{
               text-align: center;
@@ -426,11 +426,11 @@
               position: absolute;
               top: 280px;
               margin: 0;
-              left: 59px;
+              left: 50px;
               font-size: 18px;
               padding: 11px 17px 12px 17px;
               line-height: 20px;
-              width: 138px
+              width: 138px;
             }
           }
         }
@@ -497,7 +497,7 @@
         &__logo{
           animation-name: scale-logo;
           animation-duration: 700ms;
-          animation-delay: 5500ms;
+          animation-delay: 5700ms;
           animation-timing-function: linear;
           animation-fill-mode: forwards;
         }
@@ -758,7 +758,7 @@
       }
     }
     &__gradient{
-      background: linear-gradient(0deg, rgba(0,0,0, .8), rgba(0,0,0, .15));
+      background: linear-gradient(0deg, rgba(0,0,0, .8), rgba(0,0,0, 0));
       position: absolute;
       bottom: 0;
       left: 0;
@@ -925,7 +925,7 @@
       transform: scale(1) translateX(0);
     }
     100%{
-      transform: scale(1.1) translateX(-0px) ;
+      transform: scale(1.15) translateX(-0px) ;
     }
   }
 
@@ -999,7 +999,7 @@
       right: 0px;
     }
     100%{
-      transform: scale(1.2);
+      transform: scale(1);
       right: -20px;
     }
   }

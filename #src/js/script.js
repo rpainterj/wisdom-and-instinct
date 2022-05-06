@@ -5,7 +5,7 @@ const runAnimation = () => {
     if (staticObj !== animationObj) {
       let addActive = () => {
         animationObj.classList.add("active");
-        //setTimeout(removeActive, 9200);
+        setTimeout(removeActive, 9200);
       };
       let removeActive = () => {
         animationObj.classList.remove("active");
